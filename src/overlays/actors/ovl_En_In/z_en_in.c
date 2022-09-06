@@ -1393,7 +1393,7 @@ void EnIn_Init(Actor* thisx, PlayState* play) {
                 this->unk4AC |= 2;
                 func_808F35AC(this, play);
                 this->unk23C = 0;
-                D_801BDAA0 = 0;
+                D_801BDAA0 = false;
                 if (GET_RACE_FLAGS == RACE_FLAG_2) {
                     EnIn_ChangeAnim(&this->skelAnime, ENIN_ANIM_6);
                 } else {

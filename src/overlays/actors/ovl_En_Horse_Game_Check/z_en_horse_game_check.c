@@ -168,9 +168,9 @@ s32 func_808F8EB0(EnHorseGameCheck* this, PlayState* play) {
         gSaveContext.nextTransitionType = TRANS_TYPE_02;
     }
 
-    D_801BDA9C = 0;
+    D_801BDA9C = false;
     if (player->stateFlags1 & 0x800000) {
-        D_801BDAA0 = 1;
+        D_801BDAA0 = true;
     }
     play->nextEntrance = ENTRANCE(GORMAN_TRACK, 2);
     play->transitionTrigger = TRANS_TRIGGER_START;

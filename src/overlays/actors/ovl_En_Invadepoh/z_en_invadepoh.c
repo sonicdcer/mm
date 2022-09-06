@@ -1999,8 +1999,8 @@ void func_80B47108(EnInvadepoh* this, PlayState* play) {
         play->transitionTrigger = TRANS_TRIGGER_START;
         play->transitionType = TRANS_TYPE_73;
         gSaveContext.nextTransitionType = TRANS_TYPE_72;
-        D_801BDAA0 = 1;
-        D_801BDA9C = 0;
+        D_801BDAA0 = true;
+        D_801BDA9C = false;
         func_80B47248(this);
     }
 }
