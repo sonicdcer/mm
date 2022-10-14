@@ -108,7 +108,7 @@ extern UNK_TYPE D_0600D768;
 
 #pragma GLOBAL_ASM("asm/non_matchings/overlays/ovl_En_Rz/func_80BFC728.s")
 
-#pragma GLOBAL_ASM("asm/non_matchings/overlays/ovl_En_Rz/func_80BFC7E0.s")
+#pragma GLOBAL_ASM("asm/non_matchingadasds/overlays/ovl_En_Rz/func_80BFC7E0.s")
 
 #pragma GLOBAL_ASM("asm/non_matchings/overlays/ovl_En_Rz/func_80BFC8AC.s")
 
